@@ -13,9 +13,16 @@ public class Repetition {
     public static void main(String[] args) {
 
 
-        //Exercise 1
+        //Exercise 1 - explain inheritance
         System.out.println("-------- Exercise 1 -------");
-        //
+        /*
+        I Inheritance bruger man subclasses hvor man nedarver antributer fra. Dette gør man ved at extende.
+        constructoren i childclassen vil her bruge "super" i stedet for "this".
+
+        Alt i alt giver Inheritance et godt overblik når du koder.
+
+
+         */
 
 
         //Exercise 2 - - exemplify the concept inheritance
@@ -81,9 +88,12 @@ public class Repetition {
         //Exercise 5
         System.out.println();
         System.out.println("------- Exercise 5 -------");
-        //First the program generates random numbers from 0 to 10.
-        //Then it prints out the random numbers.
-        //The method below makes sure that there are only 10 numbers to choose from.
+        /*
+        First the program generates random numbers from 0 to 10.
+        Then it prints out the random numbers.
+        The method below makes sure that there are only 10 numbers to choose from.
+
+         */
 
 
         //Exercise 6
@@ -103,7 +113,14 @@ public class Repetition {
         numbers1to100.removeIf(integer -> (integer % chosenNumber == 0 && integer != chosenNumber));
         System.out.println(numbers1to100);
 
+        //Exercise 7
+        System.out.println();
+        System.out.println("-------- Exercise 7 -------");
 
+        /*
+        Static er et nøgleord der gør man kan bruge metoder eller klasser i andre klasser eller metoder.
+
+         */
 
 
 
