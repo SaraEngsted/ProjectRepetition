@@ -16,8 +16,21 @@ public class Repetition {
         //Exercise 1 - explain inheritance
         System.out.println("-------- Exercise 1 -------");
         /*
-        I Inheritance bruger man subclasses hvor man nedarver antributer fra. Dette gør man ved at extende.
-        constructoren i childclassen vil her bruge "super" i stedet for "this".
+        Inheritance eller nedarvning er når en class har subclasses/childclasses, hvor den nedarver fra.
+        Dvs. at klasserne nedarver deres fælles atributer, og vi kan derefter tilføje dem de ikke har tilfælles -
+        dette gør vi ved at extende vores atributer fra parentclass til vores childclasses.
+        Når vi har gjort dette vil vores class bede om en constructor(en metode, som automatisk bliver kaldt i vores main),
+        hvortil den vil forslå "super" i stedet for "this" - altså constructoren fra vores parentclass.
+        Altså er Inheritance når en class/classes nedarver constructor og metoder fra en anden class .
+        Man skal dog huske at parentclass er noget andet end childclass - childclass vil være den der extender fra parentclass.
+
+        Et eksemple:
+        Hvis vores parentclass er "frugt", så kunne vi have childclasses der kunne hedde "æble"
+        ⬇
+        childclass - public class æble extends frugt.
+
+        Man kan overskrive ens metode som kommer fra ens class - Det kan vi gøre ved at @override metoden fra den parentclass
+        til den anden class. Her vil man også kunne ændre den.
 
         Alt i alt giver Inheritance et godt overblik når du koder.
 
@@ -38,7 +51,7 @@ public class Repetition {
 
 
 
-        //Exercise 3 -
+        //Exercise 3 - the amount of words in a file
         System.out.println();
         System.out.println("------ Exercise 3 -------");
 
@@ -56,7 +69,7 @@ public class Repetition {
 
         System.out.println("This is how you get the amount of words there is in the file = " + words.size());
 
-        //Exercise 4 -
+        //Exercise 4 - population i 5 years
         System.out.println();
         System.out.println("------Exercise 4-------");
 
@@ -85,7 +98,7 @@ public class Repetition {
         System.out.println("the population in 5 years will be " + populationIn5Years);
 
 
-        //Exercise 5
+        //Exercise 5 - explanation of the method
         System.out.println();
         System.out.println("------- Exercise 5 -------");
         /*
@@ -96,7 +109,7 @@ public class Repetition {
          */
 
 
-        //Exercise 6
+        //Exercise 6 - random number and remove the multiples
         System.out.println();
         System.out.println("-------- Exercise 6 ------");
 
@@ -113,7 +126,7 @@ public class Repetition {
         numbers1to100.removeIf(integer -> (integer % chosenNumber == 0 && integer != chosenNumber));
         System.out.println(numbers1to100);
 
-        //Exercise 7
+        //Exercise 7 - static explanation
         System.out.println();
         System.out.println("-------- Exercise 7 -------");
 
