@@ -23,4 +23,5 @@ public class Exercise2Cars {
                 ", currentSpeed=" + currentSpeed +
                 '}';
     }
+
 }
